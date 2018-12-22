@@ -6,7 +6,6 @@
 
 body {
   font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  padding-top: 54px;
   color: #868e96;
 }
 
@@ -40,10 +39,12 @@ h2 {
 
 h3 {
   font-size: 2rem;
+  padding-bottom: 2rem;
 }
 
-p.lead {
+p {
   font-size: 1.15rem;
+  line-height: 0.25rem;
   font-weight: 400;
 }
 
@@ -56,19 +57,11 @@ p.lead {
 
 .social-icons a {
   display: inline-block;
-  height: 3.5rem;
-  width: 3.5rem;
+  height: 2.5rem;
+  width: 2.5rem;
   background-color: #495057;
   color: #fff !important;
-  border-radius: 100%;
-  text-align: center;
   font-size: 1.5rem;
-  line-height: 3.5rem;
-  margin-right: 1rem;
-}
-
-.social-icons a:last-child {
-  margin-right: 40px;
 }
 
 .social-icons a:hover {
@@ -112,7 +105,7 @@ p.lead {
     -ms-flex-direction: column;
     flex-direction: column;
     width: 13rem;
-    height: 100vh;
+    height: 75vh;
   }
   #sideNav .navbar-brand {
     display: -webkit-box;
@@ -120,19 +113,6 @@ p.lead {
     display: flex;
     margin: auto auto 0;
     padding: 0.5rem;
-  }
-  #sideNav .navbar-collapse {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: start;
-    -ms-flex-align: start;
-    align-items: flex-start;
-    -webkit-box-flex: 0;
-    -ms-flex-positive: 0;
-    flex-grow: 0;
-    width: 100%;
-    margin-bottom: auto;
   }
   #sideNav .navbar-collapse .navbar-nav {
     -webkit-box-orient: vertical;
