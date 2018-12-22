@@ -9,13 +9,6 @@ body {
   color: #868e96;
 }
 
-@media (min-width: 992px) {
-  body {
-    padding-top: 0;
-    padding-left: 17rem;
-  }
-}
-
 h1,
 h2,
 h3,
@@ -44,7 +37,7 @@ h3 {
 
 p {
   font-size: 1.15rem;
-  line-height: 0.25rem;
+  line-height: 1.5rem;
   font-weight: 400;
 }
 
@@ -53,16 +46,27 @@ a {
 }
 
 .social-icons a {
+  text-align: center;
   display: inline-block;
   height: 2.5rem;
   width: 2.5rem;
   background-color: #495057;
   color: #fff !important;
   font-size: 1.5rem;
+  margin-top: 1rem;
 }
 
 .social-icons a:hover {
   background-color: #1e2124;
+}
+
+#project-description {
+  margin-bottom: 2rem;
+}
+
+#project-img {
+  width: 90%;
+  height: 50%;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -84,6 +88,10 @@ a {
 
 /*Big screens i.e. desktop monitor*/
 @media (min-width: 992px) {
+  body {
+    padding-top: 0;
+    padding-left: 14rem;
+  }
   #img-profile {
     max-width: 10rem;
     max-height: 10rem;
@@ -101,8 +109,8 @@ a {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    width: 13rem;
-    height: 75vh;
+    width: 12rem;
+    height: 100vh;
   }
   #sideNav .navbar-brand {
     display: -webkit-box;
@@ -135,7 +143,7 @@ a {
 section.resume-section .resume-item .resume-date {
   min-width: none;
 }*/
-
+/*
 @media (min-width: 768px) {
   section.resume-section {
     min-height: 100vh;
@@ -150,7 +158,7 @@ section.resume-section .resume-item .resume-date {
     padding-top: 3rem !important;
     padding-bottom: 3rem !important;
   }
-}
+}*/
 
 .bg-primary {
   background-color: #495057 !important;
