@@ -49,24 +49,13 @@ a:hover {
   text-decoration: none;
 }
 
-
-.social-icons a {
-  text-align: center;
-  display: inline-block;
-  height: 2.5rem;
-  width: 2.5rem;
-  background-color: #495057;
-  color: #fff !important;
-  font-size: 1.5rem;
-  margin-top: 1rem;
-}
-
-.social-icons a:hover {
-  background-color: #1e2124;
-}
-
 #personal-projects {
   padding-top: 1rem;
+}
+
+#project {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 
 #project-title {
@@ -78,7 +67,7 @@ a:hover {
   width: 95%;
   height: 50%;
 }
-
+/*
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
   letter-spacing: 0.05rem;
@@ -88,11 +77,38 @@ a:hover {
 #sideNav .navbar-toggler:focus {
   outline-color: #d48a6e;
 }
-
+*/
 /*Small screens i.e. smartphone/tablet*/
-@media (max-width: 991px) {
+@media (max-width: 600px) {
   #content-section {
     padding-left: 1rem;
+  }
+  #name {
+    color: #D3D3D3;
+    font-size: 1.5rem;
+    margin-top: 1.25rem;
+    margin-right: 2.5rem;
+    display: inline-block;
+  }
+  #top-selfie {
+    width: 15%;
+    height: 15%;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 2.5rem;
+    border: 0.2rem solid rgba(255, 255, 255, 0.2);
+  }
+  .social-icons a {
+    display: inline-block;
+    width: 2.25rem;
+    background-color: #495057;
+    color: #fff !important;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    border-radius: 25%;
+  }
+  .social-icons a:hover {
+    background-color: #1e2124;
   }
   #bio {
     padding-top: 5rem;
@@ -110,10 +126,16 @@ a:hover {
 } 
 
 /*Big screens i.e. desktop monitor*/
-@media (min-width: 992px) {
+@media (min-width: 601px) {
   body {
     padding-top: 0;
     padding-left: 14rem;
+  }
+  #name {
+    display: none;
+  }
+  #top-selfie {
+    display: none;
   }
   #view-on-github {
     background-color: white;
@@ -134,6 +156,19 @@ a:hover {
     border-radius: 50%;
     border: 0.5rem solid rgba(255, 255, 255, 0.2);
   }
+  .social-icons a {
+    display: inline-block;
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: #495057;
+    color: #fff !important;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    border-radius: 25%;
+  }
+  .social-icons a:hover {
+    background-color: #1e2124;
+  }
   #sideNav {
     text-align: center;
     top: 0;
@@ -148,14 +183,14 @@ a:hover {
     width: 12rem;
     height: 100vh;
   }
-  #sideNav .navbar-brand {
+  /*#sideNav .navbar-brand {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin: auto auto 0;
     padding: 0.5rem;
-  }
-  #sideNav .navbar-collapse .navbar-nav {
+  }*/
+/*  #sideNav .navbar-collapse .navbar-nav {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
@@ -167,37 +202,11 @@ a:hover {
   }
   #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
     display: block;
-  }
+  }*/
 }
-
-/*section.resume-section {
-  padding-top: 5rem !important;
-  padding-bottom: 5rem !important;
-  max-width: 75rem;
-}
-
-section.resume-section .resume-item .resume-date {
-  min-width: none;
-}*/
-/*
-@media (min-width: 768px) {
-  section.resume-section {
-    min-height: 100vh;
-  }
-  section.resume-section .resume-item .resume-date {
-    min-width: 18rem;
-  }
-}
-
-@media (min-width: 992px) {
-  section.resume-section {
-    padding-top: 3rem !important;
-    padding-bottom: 3rem !important;
-  }
-}*/
 
 .bg-primary {
-  background-color: #495057 !important;
+  background-color: #6d7277 !important;
 }
 
 .text-primary {
