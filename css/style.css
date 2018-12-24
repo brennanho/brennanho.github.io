@@ -36,7 +36,7 @@ h3 {
 }
 
 p {
-  font-size: 1.15rem;
+  font-size: 1rem;
   line-height: 1.5rem;
   font-weight: 400;
 }
@@ -58,16 +58,13 @@ a:hover {
   margin-bottom: 2rem;
 }
 
-#project-title {
-  margin-bottom: 2rem;
-}
-
 #project-img {
   margin-top: 2rem;
   width: 95%;
   height: 50%;
 }
 
+/*Small screen devices i.e. Phones/tablets*/
 @media (max-width: 600px) {
   #content-section {
     padding-left: 1rem;
@@ -84,23 +81,27 @@ a:hover {
     height: 15%;
     border-radius: 50%;
     display: inline-block;
-    margin-right: 2.5rem;
     border: 0.2rem solid rgba(255, 255, 255, 0.2);
+  }
+  .social-icons {
+    float: right;
   }
   .social-icons a {
     display: inline-block;
     width: 2.25rem;
-    background-color: #495057;
-    color: #fff !important;
     font-size: 1.5rem;
     margin-top: 1rem;
     border-radius: 25%;
   }
   .social-icons a:hover {
-    background-color: #1e2124;
+    opacity: .75;
   }
   #bio {
-    padding-top: 5rem;
+    padding-top: 5.5rem;
+  }
+  #project-title {
+    display: inline-block;
+    margin-bottom: 1rem;
   }
   #view-on-github {
     background-color: white;
@@ -108,9 +109,6 @@ a:hover {
     padding-left: 1rem;
     width: 45%;
     height: 50%;
-  }
-  #view-on-github:hover {
-    opacity: .8;
   }
 } 
 
@@ -126,6 +124,10 @@ a:hover {
   #top-selfie {
     display: none;
   }
+  #project-title {
+    display: inline-block;
+    margin-bottom: 1rem;
+  }
   #view-on-github {
     background-color: white;
     display: inline-block;
@@ -135,6 +137,10 @@ a:hover {
   }
   #view-on-github:hover {
     opacity: .8;
+  }
+  #languages {
+    display: inline;
+    margin-left: 2rem;
   }
   #bio {
     padding-top: 1rem;
@@ -156,7 +162,7 @@ a:hover {
     border-radius: 25%;
   }
   .social-icons a:hover {
-    background-color: #1e2124;
+    opacity: .8;
   }
   #sideNav {
     text-align: center;
