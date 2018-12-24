@@ -67,18 +67,7 @@ a:hover {
   width: 95%;
   height: 50%;
 }
-/*
-#sideNav .navbar-nav .nav-item .nav-link {
-  font-weight: 800;
-  letter-spacing: 0.05rem;
-  text-transform: uppercase;
-}
 
-#sideNav .navbar-toggler:focus {
-  outline-color: #d48a6e;
-}
-*/
-/*Small screens i.e. smartphone/tablet*/
 @media (max-width: 600px) {
   #content-section {
     padding-left: 1rem;
@@ -117,7 +106,7 @@ a:hover {
     background-color: white;
     display: inline-block;
     padding-left: 1rem;
-    width: 40%;
+    width: 45%;
     height: 50%;
   }
   #view-on-github:hover {
@@ -183,26 +172,6 @@ a:hover {
     width: 12rem;
     height: 100vh;
   }
-  /*#sideNav .navbar-brand {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin: auto auto 0;
-    padding: 0.5rem;
-  }*/
-/*  #sideNav .navbar-collapse .navbar-nav {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    width: 100%;
-  }
-  #sideNav .navbar-collapse .navbar-nav .nav-item {
-    display: block;
-  }
-  #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
-    display: block;
-  }*/
 }
 
 .bg-primary {
