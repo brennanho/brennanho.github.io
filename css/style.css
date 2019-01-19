@@ -200,6 +200,10 @@ a:hover {
     margin-top: 1rem;
     border-radius: 25%;
   }
+  #yhs-img {
+    margin-left:2rem; 
+    max-width: 500px;
+  }
   #sideNav {
     text-align: center;
     top: 0;
