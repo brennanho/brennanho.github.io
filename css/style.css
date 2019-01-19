@@ -49,7 +49,7 @@ a:hover {
   text-decoration: none;
 }
 
-#personal-projects {
+#project-section {
   padding-top: 1rem;
 }
 
@@ -73,6 +73,9 @@ a:hover {
     margin-top: 1.25rem;
     margin-right: 1rem;
     display: inline-block;
+  }
+  #img-profile {
+    display: none;
   }
   #top-selfie {
     width: 15%;
@@ -145,6 +148,7 @@ a:hover {
   }
   #project-description {
     margin-left: 0.5rem;
+    margin-top: 0.5rem;
   }
   #view-on-github {
     background-color: white;

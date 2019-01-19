@@ -27,10 +27,10 @@
 	
 	<!-- Side and Top Bar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-    	<span class="d-none d-lg-block">
-      		<img id="img-profile" src="img/profile.jpg" alt="">
-    	</span>
 	    <div>
+	    	<!-- <span class="d-none d-lg-block"> -->
+      			<img id="img-profile" src="img/profile.jpg" alt="">
+    		<!-- </span> -->
 	    	<h6 id="name">Brennan Ho</h6>
 	    	<img id="top-selfie" src="img/profile.jpg" alt="">
 	    <div class="social-icons">
@@ -50,12 +50,17 @@
 	<!-- Main Body Section -->
 	<div class="container-fluid p-0">
 		<div id="content-section">
-			<h3 id="bio">Bio</h3>
+			<h3 id="bio" style='padding-bottom:1rem'>Bio</h3>
+			<p style='font-size:1rem; max-width: 900px'>If you're looking for a developer, look no further.
+			   Check out my stuff below to see some of the projects I have worked on, and if you are somehow impressed, 
+			   please email me at <a style='color:blue'>brennanmho@gmail.com</a>. Also, I don't just sit at a computer all day, I enjoy other activites 
+			   such as playing board games, volleyball, basketball, snowboarding, skateboarding, guitar, or simply hanging
+			   out with my friends.<p>
 		</div>
 
 		<hr class="m-0">
 		<div id="content-section">
-		   	<h3 id="personal-projects">Personal Projects</h3>
+		   	<h3 id="project-section">Personal Projects</h3>
 		   	<!-- Youtube Captions Search -->
 		   	<div id="project">
 			   	<span id="project-title"> 
@@ -65,13 +70,31 @@
 			   		<a href="https://github.com/brennanho/youtube_caption_search">
 			   			<img id="view-on-github" src="img/view-on-github.png">
 					</a>
-					<p id="languages">Javascript, HTML, CSS</p>	   
+					<p id="languages">Javascript, HTML, CSS</p>
 			   	</span>
 			   	<p id='project-description'>
 			   		An easy way to search words and navigate to the exact spot in a YouTube video
 			   	</p>
 			   	<div>
 			   		<img id="project-img" src="img/youtube.gif">
+				<div>
+			</div>
+			<!-- Set -->
+			<div id="project">
+			   	<span id="project-title"> 
+			   		<a> 
+			   			Set (Card game)
+			   		</a>
+			   		<a href="https://github.com/brennanho/Set">
+			   			<img id="view-on-github" src="img/view-on-github.png">
+					</a>
+					<p id="languages">GDScript, OpenGL ES, Node.js</p>	   
+			   	</span>
+			   	<p id='project-description'>
+			   		An online version of the fast paced card game. Soon to be released for Android and IOS
+			   	</p>
+			   	<div>
+			   		<img id="project-img" src="img/set.gif">
 				<div>
 			</div>
 			<!-- Webscraping and Webcrawling -->
@@ -94,7 +117,7 @@
 			    </div>
 			</div>
 			<hr class="m-0">
-			<h3 id="personal-projects">Co-op/ Intern Projects</h3>
+			<h3 id="project-section">Co-op/ Intern Projects</h3>
 			<!-- Keysis Coop -->
 			<div id="project">
 			   	<span id="project-title"> 
@@ -115,17 +138,26 @@
 			    </div>
 			</div>
 		</div>
+		<!-- York House School -->
+		<div id="project">
+			   	<span id="project-title"> 
+			   		<a> 
+			   			Sign-out System
+			   		</a>
+			   		<a href="https://github.com/brennanho/York-House-School">
+			   			<img id="view-on-github" src="img/view-on-github.png">
+					</a>
+					<p id="languages">Google Apps Script, Javascript</p>	   
+			   	</span>
+			   	<p id='project-description'>
+			   		Developed at <a href="https://www.yorkhouse.ca/page" style='color:blue'>York House School</a>, digitized and automated the tech sign-out system for students and teachers
+			   	</p>
+			   	<div>
+			   		<img id="project-img-small" src="img/YHS.jpg" style='margin-left:7rem; max-width: 500px'>
+			    </div>
+			</div>
+		</div>
 	</div>
-
-    <!-- Bootstrap core JavaScript -->
-    <!-- <script src="vendor/jquery/jquery.min.js"></script> -->
-    <!-- <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script> -->
-
-    <!-- Plugin JavaScript -->
-    <!-- <script src="vendor/jquery-easing/jquery.easing.min.js"></script> -->
-
-    <!-- Custom scripts for this template -->
-    <!-- <script src="js/resume.min.js"></script> -->
 
   </body>
 
