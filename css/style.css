@@ -75,7 +75,7 @@ a:hover {
     display: inline-block;
   }
   #img-profile {
-    display: none;
+    display: none !important;
   }
   #top-selfie {
     width: 15%;
