@@ -1,0 +1,99 @@
+{
+  "main": {
+    "name":"Brennan Ho",
+    "occupation":"Software Engineer",
+    "description":" with an emphasis on front-end web development",
+    "image":"profilepic.jpg",
+    "bio":"I'm a front-end developer aspiring to become full-stack. When I am not coding, I like to engage in my many hobbies such as skateboarding, poker, team fight tactics, and guitar.",
+    "email": "brennanmho@gmail.com",
+    "phone": "778-386-1461",
+    "address":{
+      "street":"",
+      "city":"Vancouver",
+      "state":"",
+      "zip": ""
+    },
+    "website": "http://brennanho.github.io",
+    "resumedownload":"Brennan_Ho.pdf",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"https://www.facebook.com/brennan.ho.9",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"twitter",
+        "url":"https://twitter.com/BrennanHo4?s=07&fbclid=IwAR25K3z6-HdNEF1EDEwUOF3PDXZazb4qBp46UoeMpwHDUDODDQaPccmGkr8",
+        "className":"fa fa-twitter"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/brennanho/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/brennanho",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "education":[
+      {
+        "school":"Simon Fraser University",
+        "degree":"Bachelor of Mathematics and Computer Science",
+        "graduated":"September 2014 - December 2020"
+      }
+    ],
+    "work":[
+      {
+        "company":"Realtor.com",
+        "title":"Front-end Software Engineer (Co-op)",
+        "years":"September 2019 - September 2020",
+        "description" : ["Used Storybook UI and React.js to build UI components for Realtor.com’s UI library", "Created UI component tests with cypress.io", "Developed comprehensive unit tests for effective code coverage (React Testing Library)", "Used Github to maintain, share, and review code to ensure quality software"]
+      },
+      {
+        "company":"Keysis",
+        "title":"Software Engineer (Co-op)",
+        "years":"May 2018 - August 2018",
+        "description": ["Developed power monitoring system for Arduino and Raspberry Pi units in Python", "Created Python scripts to automate tests for various linux on-board systems", "Maintained and collaberated projects using Github"]
+      },
+      {
+        "company":"York House School",
+        "title":"I.T. Intern (Co-op)",
+        "years":"April 2017 - March 2018",
+        "description": ["Provide remote and in person technical support to staff and students", "School wide desktop and tablet software installation and user integration", "Developed library checkout out system for various borrowed tech"]
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Youtube Captions Search",
+        "category":"Chrome extension",
+        "image":"youtube_captions_search.jpg",
+        "url":"https://chrome.google.com/webstore/detail/youtube-captions-search/kimbeggjgnmckoikpckibeoaocafcpbg?hl=en"
+      },
+      {
+        "title":"Trio",
+        "category":"Android card game",
+        "image":"set.png",
+        "url":"https://play.google.com/store/apps/details?id=org.godotengine.set30"
+      },
+      {
+        "title":"Wikipedia (Selenium)",
+        "category":"Web Scraping",
+        "image":"wiki.png",
+        "url":"https://github.com/brennanho/Webscrape"
+      },
+      {
+        "title":"Quizdownn",
+        "category":"Web Game",
+        "image":"quizdown.png",
+        "url":"https://quizzdown.herokuapp.com"
+      }
+    ]
+  }
+}
