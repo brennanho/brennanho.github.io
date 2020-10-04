@@ -79,19 +79,19 @@
       {
         "title":"Trio",
         "category":"Android card game",
-        "image":"set.png",
+        "image":"set.jpg",
         "url":"https://play.google.com/store/apps/details?id=org.godotengine.set30"
       },
       {
         "title":"Wikipedia (Selenium)",
         "category":"Web Scraping",
-        "image":"wiki.png",
+        "image":"wiki.jpg",
         "url":"https://github.com/brennanho/Webscrape"
       },
       {
         "title":"Quizdownn",
         "category":"Web Game",
-        "image":"quizdown.png",
+        "image":"quizdown.jpg",
         "url":"https://quizzdown.herokuapp.com"
       }
     ]
