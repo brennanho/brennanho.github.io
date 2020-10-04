@@ -785,7 +785,7 @@ footer .social-links {
 }
 footer .social-links li {
     display: inline-block;
-    margin: 0 8px;
+    margin: 0 16px;
     padding: 0;
     margin-left: 42px;
     color: #F06000;
@@ -794,8 +794,8 @@ footer .social-links li {
 footer .social-links li:first-child { margin-left: 0; }
 
 footer .contact-links {
-   display: flex;
-   padding-left: 24px;
+    display: flex;
+    padding-left: 24px;
 }
 
 footer .contact-links a {
