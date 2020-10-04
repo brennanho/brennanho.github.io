@@ -21,6 +21,7 @@ class Footer extends Component {
         </div>
         <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#home"><i className="icon-up-open"></i></a></div>
      </div>
+          <div className="contact-links"><a href = "mailto: brennanmho@gmail.com">brennanmho@gmail.com</a> <a href="tel:+778 3861461">778-386-1461</a></div>
   </footer>
     );
   }

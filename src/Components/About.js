@@ -27,8 +27,8 @@ class About extends Component {
                   <h2>Contact Details</h2>
                   <p className="address">
 						   <span>{name}</span><br />
-						   <span>{phone}</span><br />
-                     <span>{email}</span>
+                     <a href={`mailto: ${email}`}>{email}</a> 
+                     <a href={`tel:+778 3861461`}>{phone}</a>
 					   </p>
                </div>
                <div className="columns download">
