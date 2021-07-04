@@ -58,12 +58,12 @@ class Resume extends Component {
 
          <div className="nine columns main-col">
             <div className="icons">
-              <i class="devicon-javascript-plain" />
-              <i class="devicon-html5-plain" />
-              <i class="devicon-css3-plain" />
-              <i class="devicon-react-plain" />
-              <i class="devicon-python-plain" />
-              <i class="devicon-git-plain" />
+              <i className="devicon-javascript-plain" />
+              <i className="devicon-html5-plain" />
+              <i className="devicon-css3-plain" />
+              <i className="devicon-react-plain" />
+              <i className="devicon-python-plain" />
+              <i className="devicon-git-plain" />
             </div>
 
 
