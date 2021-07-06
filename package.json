@@ -2,7 +2,6 @@
   "name": "brennan-resume",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://brennanho.github.io/",
   "dependencies": {
     "cra-template": "1.0.3",
     "jquery": "^3.5.1",
